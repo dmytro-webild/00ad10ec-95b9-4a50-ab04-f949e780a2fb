@@ -21,7 +21,7 @@ export default function LandingPage() {
       borderRadius="soft"
       contentWidth="compact"
       sizing="mediumSizeLargeTitles"
-      background="aurora"
+      background="circleGradient"
       cardStyle="glass-depth"
       primaryButtonStyle="primary-glow"
       secondaryButtonStyle="glass"
@@ -48,7 +48,7 @@ export default function LandingPage() {
           tag="AI Platform"
           tagIcon={Sparkles}
           tagAnimation="slide-up"
-          background={{ variant: "aurora" }}
+          background={{ variant: "sparkles-gradient" }}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ARKsGhAqpoK0xtsNt6STlNoVV9/a-sleek-modern-ai-setup-dashboard-with-c-1772550258526-1ef5ca60.png"
           imageAlt="AI Setup Dashboard Interface"
           mediaAnimation="slide-up"
