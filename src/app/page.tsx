@@ -111,16 +111,6 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           plans={[
             {
-              id: "starter",              badge: "Starter",              badgeIcon: Sparkles,
-              price: "$49/mo",              subtitle: "Perfect for trying out AI",              buttons: [
-                { text: "Get Started", href: "contact" },
-                { text: "Learn More", href: "#" }
-              ],
-              features: [
-                "Up to 10,000 API calls/month",                "5 AI models access",                "Email support",                "Basic analytics",                "Community access"
-              ]
-            },
-            {
               id: "professional",              badge: "Professional",              badgeIcon: Sparkles,
               price: "$199/mo",              subtitle: "For growing AI teams",              buttons: [
                 { text: "Start Free Trial", href: "contact" },
@@ -128,6 +118,16 @@ export default function LandingPage() {
               ],
               features: [
                 "Unlimited API calls",                "50+ AI models",                "Priority support",                "Advanced analytics",                "Custom models",                "Team collaboration"
+              ]
+            },
+            {
+              id: "starter",              badge: "Starter",              badgeIcon: Sparkles,
+              price: "$49/mo",              subtitle: "Perfect for trying out AI",              buttons: [
+                { text: "Get Started", href: "contact" },
+                { text: "Learn More", href: "#" }
+              ],
+              features: [
+                "Up to 10,000 API calls/month",                "5 AI models access",                "Email support",                "Basic analytics",                "Community access"
               ]
             },
             {
@@ -144,6 +144,7 @@ export default function LandingPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
+          badgeClassName="bg-gradient-to-r from-purple-500 to-blue-500 text-white font-bold px-3 py-1 rounded-full text-sm shadow-lg"
         />
       </div>
 
